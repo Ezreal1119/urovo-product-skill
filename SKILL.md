@@ -17,7 +17,7 @@ marketing materials, comparative analyses, and technology deep-dives.
 
 ## Knowledge Sources
 
-This Skill's root is **`skills/urovo-product-expert/`**. Treat it as read-only during normal product Q&A. The only maintenance exception is when the user explicitly asks an Agent with repository write access to follow `SYNC_PROMPT.md`. User-requested report outputs still belong under configured Workspace roots.
+The directory containing this `SKILL.md` is the base for every relative path below. Do not assume a fixed installation path. Treat this Skill as read-only during normal product Q&A. The only maintenance exception is when the user explicitly asks an Agent with repository write access to follow `SYNC_PROMPT.md`. User-requested report outputs still belong under configured Workspace roots.
 
 ### 1. product-knowledge-vault (start here)
 
@@ -69,9 +69,9 @@ Canonical identity override: use `DT50S` as the product root and Product Hub for
 
 ### Tool usage
 
-1. Call `skill_read("urovo-product-expert")` first.
-2. Do not assume the bounded `skill_read` resource list is complete. Use `index.md` to locate `products/<product>.md`; treat that Hub's source table as the exhaustive discovery set for the product.
-3. For directory listing, search, plain text read, PDF, DOCX, PPTX, or Excel under this Skill, use the read-only workspace tools with paths like `skills/urovo-product-expert/...` after `skill_read`.
+1. This Skill is already loaded when it is invoked; do not call a separate Skill loader.
+2. Start with `product-knowledge-vault/index.md` to locate `product-knowledge-vault/products/<product>.md`; treat that Hub's source table as the exhaustive discovery set for the product.
+3. For directory listing, search, plain text read, PDF, DOCX, PPTX, or Excel under this Skill, use read-only workspace tools and resolve paths relative to the directory containing this `SKILL.md`.
 4. Prefer source `.md` files for retrieval. Use the unchanged original for visual verification, extraction ambiguity, or explicit user requests.
 5. During normal Q&A, do not write into `skills/`. Only an explicit sync request referencing `SYNC_PROMPT.md`, executed by an Agent that already has repository write authority, may maintain this package.
 
