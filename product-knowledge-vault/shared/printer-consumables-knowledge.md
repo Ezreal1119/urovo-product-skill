@@ -19,6 +19,7 @@ Category-wide printer consumables knowledge. Backlinks are on the current mobile
 - [[products/K419|K419]]
 - [[products/D8100-plus|D8100 Plus]]
 - [[products/D81R-Series|D81R Series]]
+- [[products/T1120|T1120]]
 
 ## Content Scope
 

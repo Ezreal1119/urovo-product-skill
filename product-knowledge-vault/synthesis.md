@@ -29,7 +29,7 @@ This is a strategic platform choice — same core RFID engine adapted to differe
 | Android 10 | FR1000 | Legacy |
 | Android 11 | DT40, DT50S (SQ53S), DT50D/P (base) | Mature |
 | Android 12 | CT48/48C/58/58S, i9100 | Mainstream |
-| Android 13 | CT58C, DT50S (SQ53ST), DT50D/50P/P Lite (optional), DT50P Lite, DT66, i5300/L, i9000S, i9200, i9600, RT40S, P8100, SR5750, U2S, U100 | Current |
+| Android 13 | CT58C, DT50S (SQ53ST), DT50D/50P/P Lite (optional), DT50P Lite, DT66, i5300/L, i9000S, i9200, i9600, i9600 Mini, RT40S, P8100, SR5750, U2S, U100 | Current |
 | Android 14 | CT58C (optional), RT30, K388 Pro, U2S | Current+ |
 | Android 15 | DT610, DT610 Pro, DT630, SP35 | Next-gen |
 | Android 16 | UPad | Next-gen |

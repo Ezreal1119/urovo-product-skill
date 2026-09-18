@@ -27,7 +27,7 @@ Pages 1–7 and 10–14 match the replaced 2026-08-26 Europe edition at the text
 | 8 | [[products/FR1000|FR1000]], [[products/P8100-4G|P8100 4G]], [[products/SP35|SP35]], [[products/P8100P-4G|P8100P 4G]] |
 | 9 | [[products/P8100P-5G|P8100P 5G]], [[products/U2S|U2S]], [[products/UPad|UPad]], [[products/U100|U100]] |
 | 10 | [[products/K388-Pro|K388 Pro]], [[products/K329|K329]], [[products/D81R-Series|D81R Series]], [[products/K419|K419]] |
-| 11 | [[products/i9600|i9600]], [[products/i9200|i9200]] |
+| 11 | [[products/i9600|i9600]], [[products/i9600-Mini|i9600 Mini]], [[products/i9200|i9200]] |
 | 12 | [[products/i5300|i5300]], [[products/i9100|i9100]], [[products/i5300L|i5300L]], [[products/i9000S|i9000S]] |
 | 13 | [[products/K180|K180]], [[products/K220|K220]] |
 
@@ -52,4 +52,4 @@ Pages 1–7 and 10–14 match the replaced 2026-08-26 Europe edition at the text
 
 - Use the full companion for exact page-level product claims, accessories, company metrics, application labels, and UEE tool names.
 - Read each linked Product Hub before using brochure facts. Prefer current dedicated product specifications for hard-spec answers and surface every active discrepancy recorded in the Hub.
-- Preserve region, edition, series, optional/configuration, and source-specific naming qualifiers. In particular, route the brochure's legacy `DT50` panel through the canonical DT50S Hub without relabeling the source itself.
+- Preserve region, edition, series, optional/configuration, and source-specific naming qualifiers. In particular, route the brochure's legacy `DT50` panel through the canonical DT50S Hub without relabeling the source itself. Route the i9600 Mini panel through [[products/i9600-Mini|i9600 Mini]], not i9600.

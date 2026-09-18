@@ -24,7 +24,7 @@ It is a dated marketing source rather than a replacement for any product's dedic
 | 7 | [[products/FR7000-Series|FR7000 Series]], [[products/FR1000|FR1000]], [[products/FR2000|FR2000]], [[products/P8100-4G|P8100 4G]] |
 | 8 | [[products/P8100P-5G|P8100P 5G]], [[products/UPad|UPad]], [[products/P8100P-4G|P8100P 4G]], [[products/U100|U100]] |
 | 9 | [[products/K388-Pro|K388 Pro]], [[products/K329|K329]], [[products/D81R-Series|D81R Series]], [[products/K419|K419]] |
-| 10 | [[products/i9600|i9600]] (including Mini panel), [[products/i9200|i9200]] (non-financial and payment panels) |
+| 10 | [[products/i9600|i9600]], [[products/i9600-Mini|i9600 Mini]], [[products/i9200|i9200]] (non-financial and payment panels) |
 | 11 | [[products/i5300|i5300]], [[products/i9100|i9100]], [[products/i5300L|i5300L]], [[products/i9000S|i9000S]] |
 | 12 | [[products/K180|K180]], [[products/K220|K220]] |
 
@@ -50,4 +50,4 @@ Not covered by this edition: [[products/RT30|RT30]], [[products/CT48C|CT48C]], [
 - Use the full companion for exact page-level product claims, accessories, company metrics, application labels, and UEE tool names.
 - Do not treat this edition as interchangeable with the Europe brochure. Missing models are an edition difference, not an absence from the catalog.
 - Read each linked Product Hub before using brochure facts. Prefer current dedicated product specifications for hard-spec answers.
-- Route the brochure's legacy `DT50` panel through the canonical DT50S Hub without relabeling the source itself. The i9600 Mini panel stays on the i9600 Hub.
+- Route the brochure's legacy `DT50` panel through the canonical DT50S Hub without relabeling the source itself. Route the i9600 Mini panel through [[products/i9600-Mini|i9600 Mini]], not i9600.

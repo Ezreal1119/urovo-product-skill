@@ -12,11 +12,13 @@ Smart payment terminals with integrated thermal printer, payment acceptance (MSR
 | [[spec/i9100|i9100]] | Android 13 | A53 2.0 GHz Quad | 5.5" 1280×720 | 58mm, 60-70mm/s | MSR+IC+NFC | 5200mAh | PCI PTS 6.x, EMV L1&L2 |
 | [[spec/i9200|i9200]] | Android 13 | A53 2.0 GHz Quad/Octa | 5.5" 720×1440 | 58mm, 60-80mm/s | MSR+IC+NFC | 5000mAh | PCI PTS 6.x, EMV L1&L2 |
 | [[spec/i9600|i9600]] | Android 13 | A53 2.0 GHz Quad | 6.745" 720×1600 | 58mm, 80mm/s | MSR+IC+NFC | 5000mAh | PCI PTS 6.x, EMV L1&L2 |
+| [[spec/i9600-Mini|i9600 Mini]] | Android 13 | A53 2.0 GHz Quad | 6.745" 720×1600 | — (no printer on spec) | MSR+IC+NFC | 5000mAh | PCI PTS 6.x, EMV L1&L2 |
 
 ## Feature Tiers
 
 | Tier | Product | Key Feature |
 | --- | --- | --- |
+| **MiniPOS** | i9600 Mini | 17 mm / 298 g, no onboard printer |
 | **Flagship** | i9600 | Dual screens (6.745" + 2.5"), 58mm printer, 80mm/s |
 | **Large Display** | i9200 | 5.5" display, Octa-core option |
 | **Performance** | i9000S | Octa-core standard, 5.0" |

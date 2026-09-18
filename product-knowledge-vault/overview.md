@@ -1,6 +1,6 @@
 # UROVO Product Portfolio Overview
 
-This knowledge base catalogs 49 UROVO enterprise products across 12 categories, covering handheld terminals, enterprise smartphones, wearables, POS terminals, barcode scanners, printers, RFID readers, tablets, electronic shelf labels, and accessories.
+This knowledge base catalogs 51 UROVO enterprise products across 12 categories, covering handheld terminals, enterprise smartphones, wearables, POS terminals, barcode scanners, printers, RFID readers, tablets, electronic shelf labels, and accessories.
 
 ## Product Categories
 
@@ -8,10 +8,10 @@ This knowledge base catalogs 49 UROVO enterprise products across 12 categories, 
 | --- | --- | --- | --- |
 | [[categories/handheld-terminal|Handheld Terminals]] | 13 | CT48–CT58S, DT40–DT50P Lite, RT30, RT40S, SP35 | Professional 2D Imager, UWB, SoftPOS, NFC/HF/UHF options |
 | [[categories/enterprise-smartphone|Enterprise Smartphones]] | 5 | DT50-Pro, DT66, DT610–DT630 | 5G, Wi-Fi 6E/7, AI NPU, UHF RFID, AnTuTu 400K–1.1M |
-| [[categories/pos-terminal|POS Terminals]] | 6 | i5300/i5300L, i9000S, i9100, i9200, i9600 | PCI/EMV, Thermal Printer, MSR/IC/NFC |
+| [[categories/pos-terminal|POS Terminals]] | 7 | i5300/i5300L, i9000S, i9100, i9200, i9600, i9600 Mini | PCI/EMV, Thermal Printer, MSR/IC/NFC |
 | [[categories/barcode-scanner|Barcode Scanners]] | 8 | R7 (R70/R71), K180, K200, K220, SR5600, SR5600 V2, S710, SR5750 | Ring, CMOS Imager, Laser, DPM, BT5.2–5.3 |
 | [[categories/mobile-printer|Mobile Printers]] | 4 | K329, K388 Pro, K389, K419 | Thermal, 90–120mm/s, 203 DPI |
-| [[categories/desktop-printer|Desktop Printers]] | 2 | D8100 Plus, D81R Series | Thermal Transfer, 203/300 DPI, RFID printing |
+| [[categories/desktop-printer|Desktop Printers]] | 3 | D8100 Plus, D81R Series, T1120 | Thermal Transfer, 203/300 DPI, RFID printing, industrial 4-inch |
 | Fixed RFID Readers | 3 | FR1000, FR2000, FR7000 Series | Impinj E710, UHF 840–960MHz |
 | [[categories/other-devices|RFID Sled]] | 1 | RFG91 | Impinj E710 Gen2X, Multi-platform |
 | [[categories/other-devices|Enterprise Tablets]] | 4 | P8100 4G/5G, P8100P, UPad | 8–11", Android 13–16 |
@@ -19,7 +19,7 @@ This knowledge base catalogs 49 UROVO enterprise products across 12 categories, 
 | [[categories/other-devices|Price Checker]] | 1 | U100 | 10.1", Android 13 |
 | [[categories/esl|Electronic Shelf Labels]] | 1 | ESL (2.13 / 2.66 / 4.2 inch tags + F24A7) | 2.4 GHz e-paper, POE/DC12V base station |
 
-Category membership overlaps for multifunction products: SR5750 appears under both barcode scanners and wearable computers. The portfolio total counts each of the 49 products once.
+Category membership overlaps for multifunction products: SR5750 appears under both barcode scanners and wearable computers. The portfolio total counts each of the 51 products once.
 
 ## Technology Landscape
 

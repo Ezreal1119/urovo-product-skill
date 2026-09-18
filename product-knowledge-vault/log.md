@@ -1,5 +1,45 @@
 # Operation Log
 
+## [2026-09-18] sync | U Stage Operation Manual V1.1 → shared operations
+
+Inbox had 1 real input. User asked to place the software user manual in shared storage.
+
+| Source | Decision |
+| --- | --- |
+| U Stage Operation manual V1.1.pdf | Added `_shared/operations/u-stage-operation-manual_202609181726`. Cover U Stage User Manual V1.1 (2025-12-10). APK `u-stage_1.4.8.20251208_1447_urovo_release.apk`. 17/17 pages. Platform-wide; no Product Hub backlinks (operation subject to the handheld). DT630 appears only as a file-manager path in a screenshot. |
+
+Vault node `shared/u-stage-operation-manual`. Index shared count 36→37.
+
+## [2026-09-18] sync | Create T1120 and i9600 Mini Hubs
+
+User asked to create new product folders for the two inbox products, then sync.
+
+| Source | Decision |
+| --- | --- |
+| T1120(EN)PB-20260120.pptx | Created `T1120/` and first `brochure/default_202609181616`. 2/2 slides. EN industrial 4-inch DT/TT printer PB. Slide 2 also lists T1130 / T1120i / T1130i (no Hubs). Intra-doc ZPL II vs ZPLI. No `specs/` slot yet. |
+| i9600 Mini(EN)-SPEC-20260805.docx | Created `i9600 Mini/` (not folded into i9600) and first `specs/default_202609181616`. 2/2 pages + 3 embedded images. Android 13 MiniPOS, 177×79.8×17 mm, 298 g, 5000 mAh, no printer. |
+
+Portfolio 49→51. New Hubs `products/T1120`, `products/i9600-Mini` plus spec/pb pages. Europe/NA brochure nodes now route the Mini panel to the Mini Hub. Printer-consumables backlink added for T1120.
+
+i9600 Mini discrepancies: brochure optional octa vs spec quad-only; cover punch-hole camera vs spec default “No Front camera”.
+
+## [2026-09-18] sync | K388 Pro 2/4/BT specs + series sheet + SP35 user guide
+
+Inbox had 6 real inputs. Synchronized 5. Left 1.
+
+| Source | Decision |
+| --- | --- |
+| K388 Pro 2_(EN)-SPEC-20260914.pdf | Replaced `K388 Pro/specs/` with `default_202609181554`. Filename Pro 2; body Model UROVO K388 Pro; 185×85×137 mm, 800 g. 4/4 pages. OS now Android 14, upgradable to Android 20. Removed `default_202601010000` (`K388 Pro(EN)-SPEC-20250925`). |
+| K388 Pro 4_(EN)-SPEC-20260914.pdf | Added `K388 Pro/others/specs-4inch_202609181554`. No Pro 4 Hub. 4/4 pages. 185×144×137 mm, 992 g, 104 mm / 100 mm/s. Not placed in `specs/`. |
+| K388 Pro BT(EN)-SPEC-20260910.pdf | Added `K388 Pro/others/specs-bt_202609181554`. No BT Hub. 2/2 pages. ESP32-D0WDR2, 700 g, BT v4.2. |
+| K388Pro PRODUCT SPEC SHEET .pdf | Replaced `_shared/specs/k388-pro-series-product-spec-sheet_202608111352` (5 pages, Update Date 2026-06-23) with `_202609181554` (7 pages, PDF created 2026-09-16). Filename trailing space retained. Pro 4 print now 104 mm / 100 mm/s (was 108 mm / 90 mm/s in the old slot). |
+| SP35 (EN)_User Manual  (1).pdf | Added first `SP35/user_guide/default_202609181554`. 88/88 pages. Cover Mobile Computer SP35 User Guide, copyright 2026. Includes 3-slot charging-cradle manual. Spaces and `(1)` retained. |
+| T1120(EN)PB-20260120.pptx | Left. 2-slide PB; body also names T1130 and T1120i. No T1120 / T1130 / T1120i Hub. |
+
+Hub discrepancies updated: BT 5.0 vs 5.3 paths retargeted; camera path retargeted; added OS upgrade wording (brochure vs spec); added Bluetooth class Class 2 vs Configurable Class 1 and 2 (series p4/dedicated vs series p6); added brochure 4G vs dedicated spec omitting cellular; added K388 Pro 4 drop 1.5 m vs series 1.2 m; added K388 Pro 4 UHF omitted vs series optional spanning 2’’/4’’.
+
+Vault: `spec/K388-Pro`, shared series node, `categories/mobile-printer`, index. Removed 4G from the category connectivity cell (never in the dedicated spec). Successful inbox copies removed after verification; T1120 remains.
+
 ## [2026-09-15] sync | K180/K200/K220 user guides + printer consumables note
 
 Inbox had 4 real inputs. Synchronized all 4.

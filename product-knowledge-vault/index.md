@@ -19,10 +19,10 @@ Read the relevant Hub before answering a product query. Each Hub exhaustively li
 | --- | --- |
 | Handheld Terminals | [[products/CT48|CT48]], [[products/CT48C|CT48C]], [[products/CT58|CT58]], [[products/CT58C|CT58C]], [[products/CT58S|CT58S]], [[products/DT40|DT40]], [[products/DT50S|DT50S]], [[products/DT50D|DT50D]], [[products/DT50P|DT50P]], [[products/DT50P-Lite|DT50P Lite]], [[products/RT30|RT30]], [[products/RT40S|RT40S]], [[products/SP35|SP35]] |
 | Enterprise Smartphones | [[products/DT50-Pro|DT50-Pro]], [[products/DT66|DT66]], [[products/DT610|DT610]], [[products/DT610-Pro|DT610 Pro]], [[products/DT630|DT630]] |
-| POS Terminals | [[products/i5300|i5300]], [[products/i5300L|i5300L]], [[products/i9000S|i9000S]], [[products/i9100|i9100]], [[products/i9200|i9200]], [[products/i9600|i9600]] |
+| POS Terminals | [[products/i5300|i5300]], [[products/i5300L|i5300L]], [[products/i9000S|i9000S]], [[products/i9100|i9100]], [[products/i9200|i9200]], [[products/i9600|i9600]], [[products/i9600-Mini|i9600 Mini]] |
 | Barcode Scanners | [[products/R7|R7]], [[products/K180|K180]], [[products/K200|K200]], [[products/K220|K220]], [[products/SR5600|SR5600]], [[products/SR5600-V2|SR5600 V2]], [[products/SR5750|SR5750]], [[products/S710|S710]] |
 | Mobile Printers | [[products/K329|K329]], [[products/K388-Pro|K388 Pro]], [[products/K389|K389]], [[products/K419|K419]] |
-| Desktop Printers | [[products/D8100-plus|D8100 Plus]], [[products/D81R-Series|D81R Series]] |
+| Desktop Printers | [[products/D8100-plus|D8100 Plus]], [[products/D81R-Series|D81R Series]], [[products/T1120|T1120]] |
 | Fixed RFID Readers | [[products/FR1000|FR1000]], [[products/FR2000|FR2000]], [[products/FR7000-Series|FR7000 Series]] |
 | RFID Sled & Tablets | [[products/RFG91|RFG91]], [[products/P8100-4G|P8100 4G]], [[products/P8100P-4G|P8100P 4G]], [[products/P8100P-5G|P8100P 5G]], [[products/UPad|UPad]] |
 | Wearables & Others | [[products/U2S|U2S]], [[products/U100|U100]] |
@@ -42,6 +42,7 @@ Multi-product documents are synchronized under `_shared/`. Read the correspondin
 | [[shared/mdm-certification-summary|MDM Certification Summary]] | SOTI, AirWatch, Springdel, Ivanti, and TeamViewer validation by model, project, and Android version |
 | [[shared/gms-google-key-factory-programming-status|GMS Google Key Factory Programming Status]] | Google Key requirement, programming method, property import, and factory-test provisioning by internal project |
 | [[shared/urovo-oemconfig-manual|Urovo OEMConfig User Manual]] | OEMConfig 1.0 configuration groups, actions, and items exposed to EMM solutions across the UROVO Android portfolio |
+| [[shared/u-stage-operation-manual|U Stage Operation Manual V1.1]] | Platform-wide UEE staging tool: export/import via UMS, QR, or local file; synchronizable scanner/system/RFID/UBrowser settings |
 | [[shared/soti-oemconfig-guide|SOTI-OEMConfig Guide]] | Step-by-step SOTI (MobiControl) + Urovo OEMConfig deployment procedure |
 | [[shared/rfid-demo-user-manual|RFID-Demo User Manual]] | Built-in RFID tag read/write demo application (UHF EPC C1G2 / HF ISO 15693-14443), platform-wide |
 | [[shared/rfid-wedge-user-manual|RFIDWedge User Manual]] | No-code RFID input tool (keyboard-wedge style) for delivering tag data into apps without integration |
@@ -53,7 +54,7 @@ Multi-product documents are synchronized under `_shared/`. Read the correspondin
 | [[shared/device-and-accessories-guide|Device and Accessories Guide]] | Portfolio device configurations, accessory compatibility/codes/status, and printer matrix |
 | [[shared/dt50-series-accessories-guide|DT50 Series Accessories Guide]] | DT50S / DT50-Pro batteries, charging, protection, carrying, and trigger accessories |
 | [[shared/dt610-series-product-spec-sheet|DT610 Series Product Spec Sheet]] | Side-by-side DT610 Std and DT610 Pro specifications |
-| [[shared/k388-pro-series-product-spec-sheet|K388 Pro Series Product Spec Sheet]] | K388 Pro, K388 Pro 4, and K388 Pro BT positioning and specifications |
+| [[shared/k388-pro-series-product-spec-sheet|K388 Pro Series Product Spec Sheet]] | K388 Pro 2’’, K388 Pro 4’’, and K388 Pro BT (7-page 2026-09-16 edition) |
 | [[shared/sq53pro-vs-sq53st-battlecard|SQ53PRO vs SQ53ST Battle Card]] | Direct DT50PRO/SQ53PRO versus DT50S/SQ53ST comparison; the deck itself uses the DT50 label for SQ53ST |
 | [[shared/urovo-pda-battlecard|Urovo PDA Battlecard 2025-12-05]] | Dated UROVO-versus-competitor tables covering ten canonical Product Hubs plus DT50 5G, DT510, and K388S |
 | [[shared/urovo-spec-comparison|Urovo Spec Comparison 241030]] | Dated 2024-10-30 Excel competitive sheet covering ten Product Hubs plus DT40S, DT50U, DT51U, DT51D, and RFDT50; not a live competitor-spec feed |
@@ -103,14 +104,14 @@ Multi-product documents are synchronized under `_shared/`. Read the correspondin
 | --- | --- | --- |
 | [[categories/handheld-terminal|Handheld Terminals]] | 13 | CT48–CT58S, DT40–DT50P Lite, RT30, RT40S, SP35 |
 | [[categories/enterprise-smartphone|Enterprise Smartphones]] | 5 | DT50-Pro, DT66, DT610–DT630 |
-| [[categories/pos-terminal|POS Terminals]] | 6 | i5300/i5300L, i9000S, i9100, i9200, i9600 |
+| [[categories/pos-terminal|POS Terminals]] | 7 | i5300/i5300L, i9000S, i9100, i9200, i9600, i9600 Mini |
 | [[categories/barcode-scanner|Barcode Scanners]] | 8 | R7 (R70/R71), K180, K200, K220, SR5600, SR5600 V2, SR5750, S710 |
 | [[categories/mobile-printer|Mobile Printers]] | 4 | K329, K388 Pro, K389, K419 |
-| [[categories/desktop-printer|Desktop Printers & Fixed RFID]] | 5 | D8100 Plus, D81R, FR1000, FR2000, FR7000 |
+| [[categories/desktop-printer|Desktop Printers & Fixed RFID]] | 6 | D8100 Plus, D81R, T1120, FR1000, FR2000, FR7000 |
 | [[categories/other-devices|RFID Sled, Tablets, Wearables & More]] | 8 | RFG91, P8100 Series, UPad, U2S, U100 |
 | [[categories/esl|Electronic Shelf Labels]] | 1 | ESL (ET0213 / T2664 / ET0420 tags + F24A7 base station) |
 
-Category membership can overlap: SR5750 is both a barcode-scanning device and a wearable computer. The 49-product total counts each product once.
+Category membership can overlap: SR5750 is both a barcode-scanning device and a wearable computer. The 51-product total counts each product once.
 
 ## Product Specification Pages
 
@@ -149,6 +150,7 @@ Category membership can overlap: SR5750 is both a barcode-scanning device and a 
 | [[spec/i9100|i9100]] | 5.5", Quad-core, value POS |
 | [[spec/i9200|i9200]] | 5.5", Octa/Quad option |
 | [[spec/i9600|i9600]] | Dual screen, 58mm 80mm/s printer |
+| [[spec/i9600-Mini|i9600 Mini]] | MiniPOS, 6.745", 17 mm / 298 g, no printer |
 
 ### Barcode Scanners
 | Page | Product |
@@ -164,7 +166,7 @@ Category membership can overlap: SR5750 is both a barcode-scanning device and a 
 | Page | Product |
 | --- | --- |
 | [[spec/K329|K329]] | Thermal mobile, 120mm/s, NFC |
-| [[spec/K388-Pro|K388 Pro]] | 4-in-1 labeling, Android 14 |
+| [[spec/K388-Pro|K388 Pro]] | 4-in-1 labeling, Android 14 (upgradable to 20) |
 | [[spec/K389|K389]] | Rugged mobile, 2m drop, 390g |
 
 ### Desktop Printers
@@ -172,6 +174,7 @@ Category membership can overlap: SR5750 is both a barcode-scanning device and a 
 | --- | --- |
 | [[spec/D8100-plus|D8100 Plus]] | Thermal transfer, 203/300 DPI |
 | [[spec/D81R-Series|D81R Series]] | RFID thermal transfer |
+| [[spec/T1120|T1120]] | 4-inch industrial, 203 mm/s, 104 mm |
 
 ### Fixed RFID Readers
 | Page | Product |
@@ -211,16 +214,16 @@ Category membership can overlap: SR5750 is both a barcode-scanning device and a 
 | [[features/durability|Durability Tiers]] | IP ratings, drop resistance, temperature ranges |
 | [[features/rfid-capabilities|RFID Capabilities]] | HF vs UHF, chipset distribution, range tiers |
 
-## Product Brochure Pages (49 products)
+## Product Brochure Pages (51 products)
 
 | Category | Pages |
 | --- | --- |
 | Handheld Terminals | [[pb/CT48|CT48]], [[pb/CT48C|CT48C]], [[pb/CT58|CT58]], [[pb/CT58C|CT58C]], [[pb/DT40|DT40]], [[pb/DT50S|DT50S]], [[pb/DT50D|DT50D]], [[pb/DT50P|DT50P]], [[pb/DT50P-Lite|DT50P Lite]], [[pb/RT30|RT30]], [[pb/RT40S|RT40S]], [[pb/SP35|SP35]] |
 | Enterprise Smartphones | [[pb/DT50-Pro|DT50-Pro]], [[pb/DT66|DT66]], [[pb/DT610|DT610]], [[pb/DT610-Pro|DT610 Pro]], [[pb/DT630|DT630]] |
-| POS Terminals | [[pb/i5300|i5300]], [[pb/i5300L|i5300L]], [[pb/i9000S|i9000S]], [[pb/i9100|i9100]], [[pb/i9200|i9200]], [[pb/i9600|i9600]] |
+| POS Terminals | [[pb/i5300|i5300]], [[pb/i5300L|i5300L]], [[pb/i9000S|i9000S]], [[pb/i9100|i9100]], [[pb/i9200|i9200]], [[pb/i9600|i9600]], [[pb/i9600-Mini|i9600 Mini]] |
 | Barcode Scanners | [[pb/R7|R7 Series]], [[pb/K180|K180]], [[pb/K200|K200]], [[pb/K220|K220]], [[pb/SR5600|SR5600]], [[pb/SR5600-V2|SR5600 V2]], [[pb/SR5750|SR5750]], [[pb/S710|S710]] |
 | Mobile Printers | [[pb/K329|K329]], [[pb/K388-Pro|K388 Pro]], [[pb/K389|K389]], [[pb/K419|K419]] |
-| Desktop Printers | [[pb/D8100-plus|D8100 Plus]], [[pb/D81R-Series|D81R Series]] |
+| Desktop Printers | [[pb/D8100-plus|D8100 Plus]], [[pb/D81R-Series|D81R Series]], [[pb/T1120|T1120]] |
 | Fixed RFID Readers | [[pb/FR1000|FR1000]], [[pb/FR2000|FR2000]], [[pb/FR7000-Series|FR7000 Series]] |
 | RFID Sled & Tablets | [[pb/RFG91|RFG91]], [[pb/P8100-4G|P8100 4G]], [[pb/P8100P-4G|P8100P 4G]], [[pb/P8100P-5G|P8100P 5G]], [[pb/UPad|UPad]] |
 | Wearables & Others | [[pb/U2S|U2S]], [[pb/U100|U100]] |
@@ -228,4 +231,4 @@ Category membership can overlap: SR5750 is both a barcode-scanning device and a 
 
 ---
 
-*Last updated: 2026-09-11 | 49 products | 49 product hubs | 36 shared source nodes | 46 spec pages | 49 brochure/product pages | 8 category pages | 3 comparison pages | 3 feature pages | 1 matrix page | 2 technology pages | 2 entity pages | 5 core pages | 204 total*
+*Last updated: 2026-09-18 | 51 products | 51 product hubs | 37 shared source nodes | 48 spec pages | 51 brochure/product pages | 8 category pages | 3 comparison pages | 3 feature pages | 1 matrix page | 2 technology pages | 2 entity pages | 5 core pages | 211 total*

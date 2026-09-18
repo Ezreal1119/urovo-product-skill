@@ -6,6 +6,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | [[spec/D8100-plus|D8100 Plus]] | Thermal Transfer | 203/300 DPI | 200/150 mm/s | 104/108mm | No | USB, Ethernet, Serial |
 | [[spec/D81R-Series|D81R Series]] | RFID Thermal Transfer | 203/300 DPI | 4 inch/s RFID print/write | 104/108.4mm | UHF ISO18000-6C | USB, Ethernet, Serial |
+| [[spec/T1120|T1120]] | Industrial DT/TT | 203 DPI | 203 mm/s | 104 mm | No | USB, USB Host, Ethernet, Serial; BT/Wi-Fi optional |
 
 ## Models
 
